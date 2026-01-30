@@ -1,22 +1,26 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>デモクリニック AIチャット</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SuguDesk AIチャット</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    iframe {
+      width: 100%;
+      height: 100vh;
+      border: none;
+    }
+  </style>
 </head>
-
-<body style="margin:0">
-
-<script>
- window.difyChatbotConfig = {
-  token: 'jpBAuinM9IayryTK'
- }
-</script>
-<script
- src="https://udify.app/embed.min.js"
- defer>
-</script>
-
+<body>
+  <iframe
+    src="https://udify.app/chatbot/jpBAuinM9IayryTK"
+    allow="microphone">
+  </iframe>
 </body>
 </html>
